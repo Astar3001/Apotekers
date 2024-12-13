@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Fenix", serif;
+}
+
+.bg {
+    background-image: url('pngtree-mature-pharmacist-taking-stock-in-pharmacy-for-your-health-photo-image_49752606.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(160, 196, 250, 0.78);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.signin-title {
+    font-family: 'Faustina', serif; 
+}
+
+.overlay input[type="text"], .overlay input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(63, 113, 169, 1); 
+    color: white;
+    font-family: 'Fenix',serif ;
+}
+
+.overlay input[type="text"]::placeholder, .overlay input[type="password"]::placeholder {
+    color: white; 
+}
+
+.overlay button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(63, 113, 169, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background-color: rgba(63, 113, 169, 1);
+}
+
+.signup {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(63, 113, 169, 1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Faustina',serif;
+}
+
+.signup:hover {
+    background-color: #0056b3;
+}

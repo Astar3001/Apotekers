@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #004d40;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #00796b;
+}
+
+/* Main content */
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    width: 100%;
+    background-color: #e0f7fa;
+    min-height: 100vh;
+}
+
+/* Top Navigation */
+.topnav {
+    background-color: #00bfa5;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.topnav .btn-apotek {
+    background-color: #b2ff59;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Product Section */
+.btn-buy {
+    background-color: #ff5722; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+    background-color: #e64a19; /* Warna hover */
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Doctor Consultation */
+.consultation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.consultation img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.consultation p {
+    margin: 10px 0;
+    font-size: 18px;
+}

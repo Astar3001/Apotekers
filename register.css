@@ -1,0 +1,75 @@
+body {
+    font-family: 'Fenix', sans-serif;
+    background-image: url('pngtree-mature-pharmacist-taking-stock-in-pharmacy-for-your-health-photo-image_49752606.jpg'); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* To position the sign-in link */
+}
+
+.signin-link {
+    position: absolute;
+    top: 20px; /* Adjust the top positioning */
+    right: 20px; /* Adjust the right positioning */
+    background-color: #3F71A9; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px; /* Adjust the font size */
+    font-family: Arial, sans-serif;
+}
+
+.signin-link:hover {
+    background-color: #3F71A9; /* Darker blue on hover */
+}
+
+.form-container {
+    background-color: rgba(160, 196, 250, 0.5); /* More transparent overlay */
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    position: relative;
+    color: black; /* White text color */
+}
+
+.form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none; /* Remove border */
+    border-radius: 5px;
+    background-color: rgba(63, 113, 169, 0.8); /* Slightly more transparent */
+    color: #ffffff; /* White text color */
+}
+
+.form-container input::placeholder {
+    color: #ffffff; /* White placeholder text color */
+}
+
+.form-container button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(63, 113, 169, 1);
+    color: white;
+    cursor: pointer;
+    font-family: 'Fenix' serif;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
